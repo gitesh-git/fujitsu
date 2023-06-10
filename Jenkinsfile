@@ -13,6 +13,6 @@ pipeline {
 		stage('Deployment'){
 		    steps {
 			
-			sh 'cp target/fujitsu.war gitesh@127.0.1.1:/home/gitesh/Documents/extract-file/apache-tomcat-9.0.73/webapps'
+			sh 'cp target/fujitsu.war /home/gitesh/Documents/extract-file/apache-tomcat-9.0.73/webapps'
 	}
 }}}
